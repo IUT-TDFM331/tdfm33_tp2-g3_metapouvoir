@@ -1,0 +1,1 @@
+3/ Le test "isWellSortedLargeArrays" est celui qui prend beaucoup de temps (ici 18s). Cela est du au fait que l'on ajoute 50000 valeurs dans un tableau puis qu'on test si ce tableau est trié (ce qui est long).

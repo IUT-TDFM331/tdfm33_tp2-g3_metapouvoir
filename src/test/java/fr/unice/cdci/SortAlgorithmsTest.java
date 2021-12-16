@@ -52,8 +52,9 @@ class SortAlgorithmsTest {
     void isWellSortedLargeArrays() {
         int maxSize = 50000;
         Integer[] arrayToTest = new Integer[maxSize + 1];
-        for (int i = maxSize; i >= 0; i--)
+        for (int i = maxSize; i >= 0; i--) {
             arrayToTest[maxSize - i] = i;
+        }
         testSortingAlgorithm(arrayToTest);
         testSortingAlgorithm(arrayToTest);
     }
