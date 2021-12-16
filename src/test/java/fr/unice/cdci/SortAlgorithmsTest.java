@@ -50,7 +50,7 @@ class SortAlgorithmsTest {
     @DisplayName("Should sort correctly large arrays")
     @Test
     void isWellSortedLargeArrays() {
-        int maxSize = 50000;
+        int maxSize = 500;
         Integer[] arrayToTest = new Integer[maxSize + 1];
         for (int i = maxSize; i >= 0; i--) {
             arrayToTest[maxSize - i] = i;
