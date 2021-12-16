@@ -11,3 +11,5 @@
 6/ Il y a une croix indiquant qu'il y a une erreur. Elle dit que le programme ne s'est pas compilé (à cause de l'erreur).
 
 9/ Il y a une erreur dans le test, le AssertTrue reçoit un false.
+
+10/ La validation n'a pas identifié l'erreur dans les tests. C'est normal car dans le processus de compilation du logiciel, on n'exécute pas les tests
