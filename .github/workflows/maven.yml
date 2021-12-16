@@ -34,7 +34,11 @@ jobs: # list des jobs à effectuer
           # Required mail subject:
           subject: Github Actions job result
           # Required recipients' addresses:
-          to: obiwan@gmail.com
+          to: obiwan@example.com
           # Required sender full name (address can be skipped):
           from: Luke Skywalker # <user@example.com>
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
 
