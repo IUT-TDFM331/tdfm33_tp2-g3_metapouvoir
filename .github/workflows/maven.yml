@@ -18,5 +18,5 @@ jobs: # list des jobs à effectuer
           cache: maven
       - name: Compiler le projet # On donne un nom au job
         run: mvn -B -DskipTests clean package # On lance la commande maven qui lance le build du code
-      - name: Build the tests #
+      - name: Build the tests # exécute les tests de l'application à chaque push
         run: mvn test

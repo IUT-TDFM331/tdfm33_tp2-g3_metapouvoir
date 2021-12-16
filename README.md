@@ -13,3 +13,6 @@
 9/ Il y a une erreur dans le test, le AssertTrue reçoit un false.
 
 10/ La validation n'a pas identifié l'erreur dans les tests. C'est normal car dans le processus de compilation du logiciel, on n'exécute pas les tests
+
+13/ Comme nous avons ajouté un job qui exécute les tests de l'application à chaque push et que BadTest produit une erreur, l'erreur apparait maintenant sur le Git.
+ 
