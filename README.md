@@ -6,4 +6,6 @@
 
 2/ Il y a une erreur car "ReverseSort" est en dehors d'une classe
 
-3/ Quand les autres veulent pull, Git affiche une erreur puis ne donne pas la dernière version contenant le problème.
+4/ Quand les autres veulent pull, Git affiche une erreur puis pull sans l'erreur.
+
+6/ Il y a une croix indiquant qu'il y a une erreur. Elle dit que le programme ne s'est pas compilé (à cause de l'erreur).
